@@ -42,7 +42,7 @@ import EditMedicine from "./pages/EditMedicine";
 import AdmissionsIPD from "./pages/AdmissionsIPD";
 import ReportForm from "./pages/ReportForm";
 
-axios.defaults.baseURL = "https://hms.s2jtech.work.gd//kskhospital/";
+axios.defaults.baseURL = "https://hms.s2jtech.work.gd/kskhospital/";
 
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
